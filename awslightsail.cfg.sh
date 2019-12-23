@@ -19,6 +19,7 @@ sudo chmod ug+x /src/ingenious/refresh.sh
 sudo /src/ingenious/refresh.sh
 sudo ln -s /src/ingenious/php/public /var/www/ingenious
 sudo a2enmod ssl
+sudo a2enmod rewrite
 sudo a2ensite ingenious.partners
-sudo certbot run -n --apache --agree-tos --email webmaster@jans.org --domains ingenious.partners,www.ingenious.partners
+sudo certbot run -n --apache --agree-tos --email webmaster@jans.org --domains ingenious.partners,www.ingenious.partners,mail.ingenious.partners
 sudo systemctl restart apache2

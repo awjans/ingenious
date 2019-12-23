@@ -10,24 +10,10 @@
     <link href="styles/templatemo_misc.css" rel="stylesheet" type="text/css">
    	<link href="styles/easy-responsive-tabs.css" rel="stylesheet" type="text/css">
     <link href="styles/templatemo_style.css" rel="stylesheet" type="text/css">
-	<script src="scripts/jquery-1.10.2.min.js" type="text/javascript" /> 
+	<script src="scripts/jquery-1.10.2.min.js" type="text/javascript" />
 	<script src="scripts/jquery.lightbox.js" type="text/javascript" />
 	<script src="scripts/templatemo_custom.js" type="text/javascript" />
-    <script src="scripts/easyResponsiveTabs.js" type="text/javascript" />  
-    <script>
-    function showhide()
-    {
-        var div = document.getElementById("newpost");
-		if (div.style.display !== "none") 
-		{
-			div.style.display = "none";
-		}
-		else 
-		{
-			div.style.display = "block";
-		}
-    }
-    </script>
+    <script src="scripts/easyResponsiveTabs.js" type="text/javascript" />
   </head>
   <body>
     	<!-- logo start -->
@@ -38,7 +24,7 @@
             <div class="templatemo_smalltitle">Building a Better Tomorrow, One Creative Solution at a Time</div>
        </div>
     </div>
-    <!-- logo end -->    
+    <!-- logo end -->
    <div id="menu-container" class="main_menu">
    <!-- homepage start -->
     <div class="content homepage" id="menu-1">
@@ -46,7 +32,7 @@
           	<div class="col-md-3 col-sm-6 templatemo_leftgap">
             	<div class="templatemo_mainservice templatemo_botgap">
                 	<div class="templatemo_link"><a class="show-2 templatemo_page2" href="#">Services</a></div>
-                	
+
                 </div>
                 <div class="templatemo_mainimg"><img src="images/templatemo_home1.jpg" alt="home img 01"></div>
             </div>
@@ -54,7 +40,7 @@
             	<div class="templatemo_mainimg templatemo_botgap templatemo_portfotopgap"><img src="images/templatemo_home2.jpg" alt="home img 02"></div>
                 <div class="templatemo_mainportfolio">
                       <div class="templatemo_link"><a class="show-3 templatemo_page3" href="#">Portfolio</a></div>
-                	                   
+
                 </div>
             </div>
             <div class="col-md-3 col-sm-6 templatemo_leftgap">
@@ -75,7 +61,7 @@
                 </div>
             </div>
     </div>
-    
+
    </div>
     <!-- homepage end -->
     <!--services start -->
@@ -88,7 +74,7 @@
                 	<div class="templatemo_linkservice"><a class="show-1 templatemo_homeservice" href="#">Go Back</a></div>
                 </div>
                 </div>
-                
+
                 <div class="templatemo_col37 col-sm-12 templatemo_leftgap">
                 	<div class="templatemo_graybg">
                     <div class="templatemo_frame">
@@ -107,8 +93,8 @@
             </div>
         </div>
      </div>
-	    
-    <!-- services end -->	
+
+    <!-- services end -->
 
 	<!-- portfilio start -->
     <div class="portfolio" id="menu-3" style="display: none;" >
@@ -123,7 +109,7 @@
             	<div class="templatemo_portfolioback">
                 	<div class="templatemo_link"><a class="show-1 templatemo_homeportfolio" href="#">Go Back</a></div>
                 </div>
-                
+
             </div>
             <div class="col-md-3 col-sm-6 templatemo_leftgap">
                         <div class="templatemo_botgap templatemo_portfotopgap gallery-item">
@@ -131,7 +117,7 @@
 							<div class="overlay">
 								<a href="images/portfolio/templatemo_portfolio01.jpg" data-rel="lightbox" class="fa fa-arrows-alt"></a>
 							</div>
-						</div>				
+						</div>
                 <div class="templatemo_botgap templatemo_topgap gallery-item">
              	   <img src="images/portfolio/templatemo_portfolio02.jpg" alt="gallery 2">
                    <div class="overlay">
@@ -287,7 +273,7 @@
                     	<div class="templatemo_graybg templatemo_botgap">
                         <div class="templatemo_frame">
                     	<h2>Our History</h2>
-                    	<p>Pellentesque id ullamcorper justo. Vestibulum imperdiet justo vitae lacus pulvinar, ut tempus lacus porta. Nulla eget tellus elit. Proin ipsum mi, dictum nec massa quis, malesuada feugiat nisl. Nam tempus at eros ut volutpat.<br><br> 
+                    	<p>Pellentesque id ullamcorper justo. Vestibulum imperdiet justo vitae lacus pulvinar, ut tempus lacus porta. Nulla eget tellus elit. Proin ipsum mi, dictum nec massa quis, malesuada feugiat nisl. Nam tempus at eros ut volutpat.<br><br>
                         Feel free to download our templates for your websites. Aenean consectetur, libero non dapibus posuere, odio quam fringilla diam, et rutrum felis tortor gravida massa. Aenean tincidunt dolor id augue consectetur, eget suscipit lectus facilisis. Integer eleifend augue non euismod viverra.</p>
                         </div>
                         </div>
@@ -327,7 +313,7 @@
                 	<div class="templatemo_linkcontact"><a class="show-1 templatemo_homecontact" href="#">Go Back</a></div>
                 </div>
                 </div>
-                
+
                 <div class="templatemo_col37 col-sm-12 templatemo_leftgap">
                 	<div class="templatemo_graybg templatemo_paddinggap">
                 	<h2>Contact Us</h2>
@@ -354,7 +340,7 @@
                     	<h2>Our Location</h2>
                         <div class="clear"></div>
                         <div class="templatemo_contactmap">
-		    					<div id="templatemo_map"></div>                        
+		    					<div id="templatemo_map"></div>
         		        </div>
                         <div class="templatemo_address">
                          	24-66 Nam auctor elementum dolor 10220<br>
@@ -366,16 +352,16 @@
         </div>
 
     </div>
-        <!-- contact end --> 
-    
+        <!-- contact end -->
+
     </div>
-    
+
     <!-- logo start -->
     <div class="logocontainer">
     	<div class="row">
-            <div class="templatemo_footer">Copyright &copy; <?=YEAR(TODAY());?> <a href="//www.ingenious.partners/">Ingenious Partners, LLC</a> - All Rights Reserved</div>
+            <div class="templatemo_footer">Copyright &copy; <?php=YEAR(TODAY())?> <a href="//www.ingenious.partners/">Ingenious Partners, LLC</a> - All Rights Reserved</div>
        </div>
     </div>
-    <!-- logo end -->  
+    <!-- logo end -->
   </body>
 </html>
