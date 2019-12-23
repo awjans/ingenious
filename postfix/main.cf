@@ -1,0 +1,4 @@
+# TLS parameters
+smtpd_tls_cert_file=/etc/letsencrypt/live/ingenious.partners/cert.pem
+smtpd_tls_key_file=/etc/letsencrypt/live/ingenious.partners/privkey.pem
+smtpd_use_tls=yes
