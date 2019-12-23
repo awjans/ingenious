@@ -373,7 +373,7 @@
     <!-- logo start -->
     <div class="logocontainer">
     	<div class="row">
-            <div class="templatemo_footer">Copyright &copy; <?php=YEAR(TODAY())?> <a href="//www.ingenious.partners/">Ingenious Partners, LLC</a> - All Rights Reserved</div>
+            <div class="templatemo_footer">Copyright &copy; <?=date("Y")?> <a href="//www.ingenious.partners/">Ingenious Partners, LLC</a> - All Rights Reserved</div>
        </div>
     </div>
     <!-- logo end -->
