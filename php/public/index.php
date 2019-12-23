@@ -35,7 +35,7 @@
     	<div class="row">
         	<h1>Ingenious Partners, LLC</h1>
             <div class="clear"></div>
-            <div class="templatemo_smalltitle">Building a Better Tomorrow, One Creative Solution at a Time</div>
+            <div class="templatemo_smalltitle">One Creative Solution Building On Another</div>
        </div>
     </div>
     <!-- logo end -->
