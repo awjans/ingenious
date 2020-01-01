@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <title><?=$pageTitle?></title>
+  <meta name="description" content="<?=$pageDescription?>" />
+  <meta name="author" content="Ingenious Partners, LLC">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/styles/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="/styles/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="/styles/templatemo_misc.css" rel="stylesheet" type="text/css">
+  <link href="/styles/easy-responsive-tabs.css" rel="stylesheet" type="text/css">
+  <link href="/styles/templatemo_style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <!-- logo start -->
+  <header class="row">
+    <h1 class="title"><a href="/">Ingenious Partners, LLC</a></h1>
+    <h2 class="subtitle">Una solución creativa basada en otra</h2>
+  </header>
+  <nav class="row <?=$pagePath==="/"?"hide":"show";?>">
+    <ul>
+      <li class="<?=$pagePath==="/"?"active":"normal";?>"><a href="/">Hogar</a></li>
+      <li class="<?=$pagePath==="/services"?"active":"normal";?>"><a href="/services">Servicios</a></li>
+      <li class="<?=$pagePath==="/portfolio"?"active":"normal";?>"><a href="/portfolio">Portafolio</a></li>
+      <li class="<?=$pagePath==="/testimonials"?"active":"normal";?>"><a href="/testimonials">Testimonios</a></li>
+      <li class="<?=$pagePath==="/about"?"active":"normal";?>"><a href="/about">Acerca de</a></li>
+      <li class="<?=$pagePath==="/contact"?"active":"normal";?>"><a href="/contact">Contacto</a></li>
+    </ul>
+  </nav>
+  <main class="row">
+    <?=$content;?>
+  </main>
+  <footer class="row">
+    <p>Derechos de autor &copy; <?=date("Y")?> <a href="/">Ingenious Partners, LLC</a> - Todos los derechos reservados</p>
+  </footer>
+</body>
+
+</html>
