@@ -11,6 +11,9 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::view('/', 'welcome')->name('welcome');
+Route::view('/services', 'services')->name('services');
+Route::view('/portfolio', 'portfolio')->name('portfolio');
+Route::view('/testimonials', 'testimonials')->name('testimonials');
+Route::view('/about', 'about')->name('about');
+Route::view('/contact', 'contact')->name('contact');

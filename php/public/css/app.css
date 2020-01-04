@@ -1,0 +1,50 @@
+body {
+    font-family: 'Cabin'; sans-serif;
+    color: #eee;
+    background-color: #333;
+}
+
+#title {
+    font-style: italic;
+    font-weight: bolder;
+}
+
+nav ul li {
+  display: inline;
+  text-decoration: none;
+}
+
+.link {
+    height: 5rem;
+    text-align: center;
+}
+.link .btn {
+    border: 0px;
+    border-radius: 0;
+    height: 100%;
+    width: 100%;
+    vertical-align: middle;
+    line-height: 5rem;
+    color: #eee;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    text-decoration: none;
+}
+.link .btn:hover {
+    color: #666;
+}
+.link#services .btn {
+    background-color: #c42020;
+}
+.link#portfolio {
+    background-color: #c4c420;
+}
+.link#testimonials {
+    background-color: #20c420;
+}
+.link#about {
+    background-color: #2020c4;
+}
+.link#contact {
+    background-color: #20c4c4;
+}
