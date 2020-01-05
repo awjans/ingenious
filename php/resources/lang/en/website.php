@@ -21,4 +21,8 @@ return [
     'about' => 'About',
     'contact' => 'Contact',
 
+    'welcome1-alt' => 'A wandering road in the fall woods',
+    'welcome2-alt' => 'A creative lighting structure',
+    'welcome3-alt' => 'Focus on the Big Picture',
+    'welcome4-alt' => 'A woman with floating lights at dusk',
 ];
