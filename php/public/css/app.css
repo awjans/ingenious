@@ -9,13 +9,25 @@ body {
     font-weight: bolder;
 }
 
+.hide {
+    display: none;
+}
+
 nav ul li {
   display: inline;
-  text-decoration: none;
+}
+nav ul li .btn {
+    color: #fff;
+}
+nav ul li .normal:hover {
+    background-color: #ccc;
+}
+nav ul li .active {
+    color: #000;
 }
 
 .link {
-    height: 5rem;
+    height: 10vh;
     text-align: center;
 }
 .link .btn {
@@ -24,7 +36,7 @@ nav ul li {
     height: 100%;
     width: 100%;
     vertical-align: middle;
-    line-height: 5rem;
+    line-height: 10vh;
     color: #eee;
     font-size: 1.5rem;
     font-weight: bolder;
@@ -33,18 +45,22 @@ nav ul li {
 .link .btn:hover {
     color: #666;
 }
-.link#services .btn {
+
+.welcome .btn {
     background-color: #c42020;
 }
-.link#portfolio {
+.services .btn {
     background-color: #c4c420;
 }
-.link#testimonials {
+.portfolio .btn {
     background-color: #20c420;
 }
-.link#about {
+.testimonials .btn {
     background-color: #2020c4;
 }
-.link#contact {
+.about .btn {
+    background-color: #c420c4;
+}
+.contact .btn {
     background-color: #20c4c4;
 }

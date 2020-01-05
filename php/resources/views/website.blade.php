@@ -27,22 +27,23 @@
   </head>
   <body>
     <header class="container-fluid">
+      <img id="logo" class="float-left" alt="Ingenious Partners, LLC Logo" src="/images/favicon-96x96.png">
       <h1 id="title">Ingenious Partners, LLC</h1>
       <h2 id="subtitle">@lang('website.tagLine')</h2>
     </header>
-    <nav class="container {{ Route::currentRouteName()==='welcome'?"invisible":"visible" }}">
+    <nav class="container-fluid {{ Route::currentRouteName()==='welcome'?"hide":"visible" }}">
       <ul>
-        <li class="{{ Route::currentRouteName()==='welcome'?"active":"normal" }}"><a href="{{ route('welcome') }}">@lang('website.welcome')</a></li>
-        <li class="{{ Route::currentRouteName()==='services'?"active":"normal" }}"><a href="{{ route('services') }}">@lang('website.services')</a></li>
-        <li class="{{ Route::currentRouteName()==='portfolio'?"active":"normal" }}"><a href="{{ route('portfolio') }}">@lang('website.portfolio')</a></li>
-        <li class="{{ Route::currentRouteName()==='testimonials'?"active":"normal" }}"><a href="{{ route('testimonials') }}">@lang('website.testimonials')</a></li>
-        <li class="{{ Route::currentRouteName()==='about'?"active":"normal" }}"><a href="{{ route('about') }}">@lang('website.about')</a></li>
-        <li class="{{ Route::currentRouteName()==='contact'?"active":"normal" }}"><a href="{{ route('contact') }}">@lang('website.contact')</a></li>
+        <li id="menu-welcome" class="welcome"><a class="btn {{ Route::currentRouteName()==='welcome'?"active":"normal" }}" href="{{ route('welcome') }}">@lang('website.welcome')</a></li>
+        <li id="menu-services" class="services"><a class="btn {{ Route::currentRouteName()==='services'?"active":"normal" }}" href="{{ route('services') }}">@lang('website.services')</a></li>
+        <li id="menu-portfolio" class="portfolio"><a class="btn {{ Route::currentRouteName()==='portfolio'?"active":"normal" }}" href="{{ route('portfolio') }}">@lang('website.portfolio')</a></li>
+        <li id="menu-testimonials" class="testimonials"><a class="btn {{ Route::currentRouteName()==='testimonials'?"active":"normal" }}" href="{{ route('testimonials') }}">@lang('website.testimonials')</a></li>
+        <li id="menu-about" class="about"><a class="btn {{ Route::currentRouteName()==='about'?"active":"normal" }}" href="{{ route('about') }}">@lang('website.about')</a></li>
+        <li id="menu-contact" class="contact"><a class="btn {{ Route::currentRouteName()==='contact'?"active":"normal" }}" href="{{ route('contact') }}">@lang('website.contact')</a></li>
       </ul>
     </nav>
-    <main>@yield('content')</main>
+    <main class="container-fluid">@yield('content')</main>
     <footer class="container-fluid">
-      <p id='copyright'>@lang('html.copyright') <a href="https://ingenious.partners">Ingenious Partners, LLC</a> &ndash; @lang('html.allrightsreserved')</p>
+      <p id='copyright' class="text-center">@lang('html.copyright') <a href="https://ingenious.partners">Ingenious Partners, LLC</a> &ndash; @lang('html.allrightsreserved')</p>
     </footer>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
