@@ -1,2 +1,75 @@
-//
-@import '~bootstrap/scss/bootstrap'
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Cabin');
+
+// Variables
+//@import 'variables';
+
+// Bootstrap
+//@import '~bootstrap/scss/bootstrap';
+
+body {
+    font-family: 'Cabin'; sans-serif;
+    color: #eee;
+    background-color: #333;
+}
+
+#title {
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.hide {
+    display: none;
+}
+
+nav ul li {
+  display: inline;
+}
+nav ul li .btn {
+    color: #fff;
+}
+nav ul li .normal:hover {
+    background-color: #ccc;
+}
+nav ul li .active {
+    color: #000;
+}
+
+.link {
+    height: 10vh;
+    text-align: center;
+}
+.link .btn {
+    border: 0px;
+    border-radius: 0;
+    height: 100%;
+    width: 100%;
+    vertical-align: middle;
+    line-height: 10vh;
+    color: #eee;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    text-decoration: none;
+}
+.link .btn:hover {
+    color: #666;
+}
+
+.welcome .btn {
+    background-color: #c42020;
+}
+.services .btn {
+    background-color: #c4c420;
+}
+.portfolio .btn {
+    background-color: #20c420;
+}
+.testimonials .btn {
+    background-color: #2020c4;
+}
+.about .btn {
+    background-color: #c420c4;
+}
+.contact .btn {
+    background-color: #20c4c4;
+}
