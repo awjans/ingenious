@@ -8,7 +8,7 @@
 <h1>Services</h1>
 <p>At Ingenious Partners we believe that <strong>technology should be a help, not a hinderence</strong>. It is not practical for every company to have an IT department. We step in to provide for your technology needs. We offer cost effective, experienced support at any level.</p>
 <div class="row">
-<div class="col-9">
+<div class="col-6 col-md-9">
   <h2>Technical Support</h2>
   <p>Sometimes even the most experienced user needs help. Whatever your problems, printer, software, computer or phone, we will come to your aid. Most of the time this can be done remotely. When neccessary, we will be there in person. </p>
   <h2>Systems Administration</h2>
@@ -17,7 +17,7 @@
   <p>Wondering how to use technology to grow your business but are not sure how to proceed? We can help! With over 30 years in Information Technology, we understand the current trends and how they effect your business.</p>
   <h2>Custom Software Development</h2>
   <p>Sometimes y;ou can't find what you need in the Microsoft, Google or Apple stores. Are you looking for something that will make your job more efficient or your customer's happier? We can create something as simple as an Excel Macro or a full fledged phone app. Call today to talk to our expert.</p>
-</div><div class="col-3">
+</div><div class="col-6 col-md-3">
   <img class="w-100 float-right" src="{{ asset('images/services.jpg') }}" alt="@lang('website.services-alt')">
 </div></div>
 @endsection
