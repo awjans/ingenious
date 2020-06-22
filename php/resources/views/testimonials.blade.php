@@ -5,4 +5,6 @@
 @endsection
 
 @section('content')
+<h1>Testimonials</h1>
+<p></p>
 @endsection
