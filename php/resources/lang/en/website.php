@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'tagLine' => 'One Creative Solution Building On Another',
+    'tagLine' => 'Technology Solutions making life easier!',
     'welcome' => 'Welcome',
     'services' => 'Services',
     'portfolio' => 'Portfolio',
