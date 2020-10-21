@@ -1,8 +1,19 @@
 <!DOCTYPE html>
 <html lang="@lang('html.lang')" dir="@lang('html.dir')">
   <head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-180993015-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-180993015-1');
+</script>
     <title>Ingenious Partners, LLC | @yield('title')</title>
     <meta charset="utf-8">
+    <meta name="author" content="Ingenious Partners, LLC">
+    <meta name="description" content="@yield('description')">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" type="text/css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -42,7 +53,12 @@
         <li id="menu-contact" class="contact"><a class="btn {{ Route::currentRouteName()==='contact'?"active":"normal" }}" href="{{ route('contact') }}">@lang('website.contact')</a></li>
       </ul>
     </nav>
-    <main class="container-fluid">@yield('content')</main>
+    <main class="container-fluid">@yield('content')
+      <div class="{{ Route::currentRouteName()==='contact'?"hide":"visible" }}">
+        <h2>Contact us today!</h2>
+        <p>Phone:&nbsp;<a href="tel:+18088249534">+1.808.824.9534</a><br />Email:&nbsp;<a href="mailto:info@ingenious.partners">info@ingenious.partners</a></p>
+      </div>
+    </main>
     <footer class="container-fluid">
       <p id='copyright' class="text-center">@lang('html.copyright') <a href="https://ingenious.partners">Ingenious Partners, LLC</a> &ndash; @lang('html.allrightsreserved')</p>
     </footer>

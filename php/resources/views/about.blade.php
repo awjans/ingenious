@@ -4,5 +4,8 @@
 @lang('website.about')
 @endsection
 
+@section('description')
+@endsection
+
 @section('content')
 @endsection

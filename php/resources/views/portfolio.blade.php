@@ -4,6 +4,9 @@
 @lang('website.portfolio')
 @endsection
 
+@section('description')
+@endsection
+
 @section('content')
 <h1>Portfolio</h1>
 <h2>Hawaii Select Investments Inc</h2>

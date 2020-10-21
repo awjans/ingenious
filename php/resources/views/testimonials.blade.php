@@ -4,6 +4,9 @@
 @lang('website.testimonials')
 @endsection
 
+@section('description')
+@endsection
+
 @section('content')
 <h1>Testimonials</h1>
 <p></p>
