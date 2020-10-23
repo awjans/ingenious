@@ -10,17 +10,15 @@
 @section('content')
 <h1>Portfolio</h1>
 <h2>Hawaii Select Investments Inc</h2>
-<p></p>
-<h2><a href="https://www.cranetech.pro">Crane Tech LLC</a></h2>
-<p></p>
-<h2><a href="https://www.generatorpowersys.com">Generator & Power Systems LLC</a></h2>
-<p></p>
-<h2><a href="https://www.electrotest.pro">Electro-Test LLC</a></h2>
-<p></p>
-<h2>Christ Lutheran Church of Mililani</h2>
-<p></p>
-<h2>Complexity Consulting</h2>
-<p></p>
-<h2>Wolter Weddings</h2>
-<p></p>
+<p>Stategic Advice, Technical Support</p>
+<h2><a href="https://www.cranetech.pro" target="ipclient">Crane Tech LLC</a></h2>
+<p>Techical Support, Systems Administration</p>
+<h2><a href="https://www.generatorpowersys.com" target="ipclient">Generator & Power Systems LLC</a></h2>
+<p>Technical Support, Systems Administration</p>
+<h2><a href="https://www.clcmililani.org" target="ipclient">Christ Lutheran Church of Mililani</a></h2>
+<p>Technical Support, Stategic Advice</p>
+<h2><a href="https://complexityconsulting.net" target="ipclient">Complexity Consulting</a></h2>
+<p>Web Design, Technical Support, Stategic Advice</p>
+<h2><a href="https://wolterweddings.com" target="ipclient">Wolter Weddings</a></h2>
+<p>Web Design, Technical Support, Stategic Advice</p>
 @endsection
