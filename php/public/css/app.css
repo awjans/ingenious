@@ -9,6 +9,14 @@ body {
     font-weight: bolder;
 }
 
+#copyright {
+    font-size: small;
+}
+
+#copywrite {
+    font-size: xx-small;
+}
+
 .hide {
     display: none;
 }

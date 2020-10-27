@@ -53,7 +53,8 @@
         <li id="menu-contact" class="contact"><a class="btn {{ Route::currentRouteName()==='contact'?"active":"normal" }}" href="{{ route('contact') }}">@lang('website.contact')</a></li>
       </ul>
     </nav>
-    <main class="container-fluid">@yield('content')
+    <main class="container-fluid">
+@yield('content')
       <div class="{{ Route::currentRouteName()==='contact'?"hide":"visible" }}">
         <h2>Contact us today!</h2>
         <p>Phone:&nbsp;<a href="tel:+18088249534">+1.808.824.9534</a><br />Email:&nbsp;<a href="mailto:info@ingenious.partners">info@ingenious.partners</a></p>
@@ -61,6 +62,7 @@
     </main>
     <footer class="container-fluid">
       <p id='copyright' class="text-center">@lang('html.copyright') <a href="https://ingenious.partners">Ingenious Partners, LLC</a> &ndash; @lang('html.allrightsreserved')</p>
+	  <p id='copywrite' class="text-center">Copywriting by <a href="https://natashalink.com" target="_blank">Natasha Link</p>
     </footer>
 <!--    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
