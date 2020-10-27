@@ -53,7 +53,8 @@
         <li id="menu-contact" class="contact"><a class="btn {{ Route::currentRouteName()==='contact'?"active":"normal" }}" href="{{ route('contact') }}">@lang('website.contact')</a></li>
       </ul>
     </nav>
-    <main class="container-fluid">@yield('content')
+    <main class="container-fluid">
+@yield('content')
       <div class="{{ Route::currentRouteName()==='contact'?"hide":"visible" }}">
         <h2>Contact us today!</h2>
         <p>Phone:&nbsp;<a href="tel:+18088249534">+1.808.824.9534</a><br />Email:&nbsp;<a href="mailto:info@ingenious.partners">info@ingenious.partners</a></p>
