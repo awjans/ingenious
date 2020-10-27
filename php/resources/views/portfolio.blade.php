@@ -18,7 +18,7 @@
 <h2><a href="https://www.cranetech.pro" target="ipclient">Crane Tech LLC</a></h2>
 <p>Techical Support, Systems Administration</p>
 <blockquote class="testimonial col-3 col-md-6">
-<p>Ingenious Partners provide fast reliable services and offer many creative solutions for our small business needs. Hands down one of the best Ala cart I.T. service solutions available on Oahu.</p>
+<p>Ingenious Partners provide fast reliable services and offer many creative solutions for our small business needs. Hands down one of the best ala-cart I.T. service solutions available on Oahu.</p>
 <footer>&dash;<cite>General Manager</cite></footer>
 </blockquote>
 <h2><a href="https://www.generatorpowersys.com" target="ipclient">Generator & Power Systems LLC</a></h2>
