@@ -10,7 +10,7 @@ At Ingenious Partners we believe that technology should be a help, not a hindere
 
 @section('content')
 <h1>Services</h1>
-<p>At Ingenious Partners we believe that <strong>technology should be a help, not a hinderence</strong>. We know you are busy and dealing with IT issues can be time-consuming and confusing. Let our experts ease those frustrations for you. We will step in to provide any level of support you may need.</p>
+<p>At Ingenious Partners we believe that <strong>technology should be a help, not a hindrance</strong>. We know you are busy and dealing with IT issues can be time-consuming and confusing. Let our experts ease those frustrations for you. We will step in to provide any level of support you may need.</p>
 <div class="row">
 <div class="col-8 col-md-9">
   <h2>Technical Support</h2>
