@@ -2,18 +2,8 @@
 
 return [
 
-    /*
-    |--------------------------------------------------------------------------
-    | Authentication Language Lines
-    |--------------------------------------------------------------------------
-    |
-    | The following language lines are used during authentication for various
-    | messages that we need to display to the user. You are free to modify
-    | these language lines according to your application's requirements.
-    |
-    */
-
     'tagLine' => 'Technology Solutions making life easier!',
+	'logo-alt' => 'Multi-colored gears',
     'welcome' => 'Welcome',
     'services' => 'Services',
     'portfolio' => 'Portfolio',
@@ -25,4 +15,11 @@ return [
     'welcome2-alt' => 'A creative lighting structure',
     'welcome3-alt' => 'Focus on the Big Picture',
     'welcome4-alt' => 'A woman with floating lights at dusk',
+
+	'contactustoday' => 'Contact us today!',
+	'phone' => 'Phone:',
+	'email' => 'Email:',
+    'copyright' => 'Copyright &copy;',
+    'allrightsreserved' => 'All Rights Reserved',
+	'copywrite' => 'Copywriting by',
 ];

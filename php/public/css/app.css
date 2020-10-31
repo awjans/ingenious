@@ -9,6 +9,10 @@ body {
     font-weight: bolder;
 }
 
+div#menu {
+	margin-bottom: 10px;
+}
+
 #copyright {
     font-size: small;
 }
