@@ -9,5 +9,16 @@
 
 @section('content')
 <h1>Testimonials</h1>
-<p></p>
+<blockquote class="testimonial col-9">
+<p>@lang('testimonials.testimonial.hsi.quote')</p>
+<footer>&dash;&nbsp;<cite>@lang('testimonials.testimonial.hsi.attribution')</cite></footer>
+</blockquote>
+<blockquote class="testimonial col-9">
+<p>@lang('testimonials.testimonial.ct.quote')</p>
+<footer>&dash;&nbsp;<cite>@lang('testimonials.testimonial.ct.attribution')</cite></footer>
+</blockquote>
+<blockquote class="testimonial col-9">
+<p>@lang('testimonials.testimonial.gps.quote')</p>
+<footer>&dash;&nbsp;<cite>@lang('testimonials.testimonial.gps.attribution')</cite></footer>
+</blockquote>
 @endsection

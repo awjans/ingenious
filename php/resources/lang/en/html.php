@@ -3,6 +3,5 @@
 return [
 
     'lang' => 'en_US',
-    'dir' => 'ltr'
-
+    'dir' => 'ltr',
 ];
