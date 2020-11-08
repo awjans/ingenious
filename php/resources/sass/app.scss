@@ -1,5 +1,5 @@
 // Fonts
-@import url('https://fonts.googleapis.com/css?family=Cabin');
+@import url('https://fonts.googleapis.com/css?family=Karma');
 
 // Variables
 //@import 'variables';
@@ -16,6 +16,18 @@ body {
 #title {
     font-style: italic;
     font-weight: bolder;
+}
+
+div#menu {
+	margin-bottom: 10px;
+}
+
+#copyright {
+    font-size: small;
+}
+
+#copywrite {
+    font-size: xx-small;
 }
 
 .hide {
