@@ -2,6 +2,6 @@
 
 return [
 
-    'lang' => 'en_US',
+    'lang' => 'haw',
     'dir' => 'ltr',
 ];

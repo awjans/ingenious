@@ -39,7 +39,7 @@
   </head>
   <body>
     <header class="container-fluid">
-      <img id="logo" class="float-left" alt="Ingenious Partners, LLC Logo" src="/images/favicon-96x96.png">
+      <img id="logo" class="float-left" alt="@lang('website.logo-alt')" src="/images/favicon-96x96.png">
       <h1 id="title">Ingenious Partners, LLC</h1>
       <h2 id="subtitle">@lang('website.tagLine')</h2>
     </header>
@@ -55,14 +55,14 @@
     </nav>
     <main class="container-fluid">
 @yield('content')
-      <div class="{{ Route::currentRouteName()==='contact'?"hide":"visible" }}">
-        <h2>Contact us today!</h2>
-        <p>Phone:&nbsp;<a href="tel:+18088249534">+1.808.824.9534</a><br />Email:&nbsp;<a href="mailto:info@ingenious.partners">info@ingenious.partners</a></p>
-      </div>
     </main>
     <footer class="container-fluid">
-      <p id='copyright' class="text-center">@lang('html.copyright') <a href="https://ingenious.partners">Ingenious Partners, LLC</a> &ndash; @lang('html.allrightsreserved')</p>
-	  <p id='copywrite' class="text-center">Copywriting by <a href="https://natashalink.com" target="_blank">Natasha Link</p>
+      <div>
+        <h2>@lang('website.contactustoday')</h2>
+        <p>@lang('website.phone')&nbsp;<a href="tel:+18088249534">+1.808.824.9534</a><br />@lang('website.email')&nbsp;<a href="mailto:info@ingenious.partners">info@ingenious.partners</a></p>
+      </div>
+      <p id='copyright' class="text-center">@lang('website.copyright')&nbsp;<a href="https://ingenious.partners">Ingenious Partners, LLC</a> &ndash; @lang('website.allrightsreserved')</p>
+	  <p id='copywrite' class="text-center">@lang('website.copywrite')&nbsp;<a href="https://natashalink.com" target="_blank">Natasha Link</a></p>
     </footer>
 <!--    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
